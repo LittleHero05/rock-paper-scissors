@@ -1,0 +1,75 @@
+body {
+    margin:auto;
+     max-width: 900px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(75, 114, 221);
+    padding-top: 30px;
+    height: 650px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+    width: 100%;
+}
+
+.card {
+    height: 220px;
+    max-width: 190px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    text-align: center;
+
+}
+
+.card img {
+    max-width: 150px;
+    padding: 15px 20px 10px 20px;
+}
+
+.output {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.counters {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pCounterCard, #cCounterCard {
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}

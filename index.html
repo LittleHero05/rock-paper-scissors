@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js" defer></script>
     <title>Document</title>
-    <script src="script.js"></script>
+    <!--<script src="script.js"></script> -->
 </head>
 <body>
+    <header>
+        <h1>ROCK - PAPER - SCISSOR</h1>
+    </header>
     
+    <main>
+        <div class="title">
+            <h1>Choose:</h1>
+        </div> 
+        <div class="container">
+        <div class="card">
+            <img src="icons/stone.png">
+            <input type="button" name="rock" value="rock"/>
+            
+        </div>
+        <div class="card">
+            <img src="icons/parchment.png">
+            <input type="button" name="paper" value="paper"/>
+        </div>
+        <div class="card">
+            <img src="icons/scissors.png">
+            <input type="button" name="scissors" value="scissors"/>
+        </div>
+        </div>
+        <break></break>
+        <div class="output">
+            <h2 id="outputText">you loose</h2>
+        </div>
+        <div class="counters">
+            <div id="pCounterCard"><p id="pCounter"></p></div>
+            <div id="cCounterCard"><p id="cCounter"></p></div>
+        </div>
+    </main>
 </body>
 </html>
